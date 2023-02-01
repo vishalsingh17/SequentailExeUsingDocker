@@ -7,7 +7,7 @@
 git clone https://github.com/vishalsingh17/SequentailExeUsingDocker
 ```
 
-2. Chnage the directory to SequentailExeUsingDocker.
+2. Change the directory to SequentailExeUsingDocker.
 
 3. Create the user using the command below
 ```
