@@ -1,0 +1,9 @@
+version: '3'
+
+x-airflow-common:
+ &airflow-common
+ image: apache/airflow:2.1.1-python-3.8
+ environment:
+  &airflow-common-env
+  AIRFLOW__CORE__SQL_ALCHEMY_CONN: sqlite:///usr/local/airflow/db/airflow.db
+  AIRFLOW__CORE__LOAD_EXAMPLES: 'true'
